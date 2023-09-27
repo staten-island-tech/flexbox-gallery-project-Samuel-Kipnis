@@ -73,6 +73,17 @@ body {
     background-color: #7fd6fc;
     width: 32%;
     width: 22%;
+    animation-name: cardColors;
+    animation-duration: 1s;
+}
+
+.card-button {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(57, 158, 253);
+    border: 0px solid rgb(57, 158, 253);
+    border-radius: 3rem;
 }
 
 .card-img {
