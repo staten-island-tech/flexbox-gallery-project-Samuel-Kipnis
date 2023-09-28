@@ -31,7 +31,7 @@ body {
 .header:hover {
     background-color: #7fd6fc;
     transition: ease 0.2s;
-    box-shadow: 6px 6px 6px rgb(206, 204, 204);
+    box-shadow: 8px 8px 8px rgb(206, 204, 204);
     padding-bottom: .5rem;
 }
 
@@ -137,6 +137,9 @@ body {
 @media screen and (max-width: 1200px) {
     .card {
         width: 40%;
+    }
+    .card:hover {
+        width: 45%;
     }
     .subtitle {
         width: 100%;
